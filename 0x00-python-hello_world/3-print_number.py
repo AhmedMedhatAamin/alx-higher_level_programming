@@ -2,4 +2,3 @@
 number = 98
 name = "Battery street"
 print(f"{number} {name}")
-
