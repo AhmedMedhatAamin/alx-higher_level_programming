@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-print("{number} + {stri}".format(number = 98, stri = "Battery street"))
+number = 98
+name = "Battery street"
+print(f"{number} {name}")
 
