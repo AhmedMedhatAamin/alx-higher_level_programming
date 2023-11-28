@@ -7,4 +7,3 @@ elif number == 0:
     print("{:.0f} is zero".format(number))
 else:
     print("{:.0f} is negative".format(number))
-
