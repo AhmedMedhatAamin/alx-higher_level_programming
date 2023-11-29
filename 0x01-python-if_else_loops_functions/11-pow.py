@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-def def pow(a, b):
-    return a ^ b
+def pow(a, b):
+    result = 1
+    for _ in range(b):
+        result *= a
+    return result
