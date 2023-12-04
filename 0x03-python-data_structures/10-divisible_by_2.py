@@ -1,10 +1,15 @@
 #!/usr/bin/python3
 
-def divisible_by_2(my_list=None):
-    my_list = my_list or []
+def divisible_by_2(my_list=[]):
+    result_list = []
     
-    for i in my_list:
-        if i % 2 == 0:
-            print("{:d} is divisible by 2".format(i))
-        else:
-            print("{:d} is not divisible by 2".format(i))
+    if len(my_list) > 0:
+        for i in my_list:
+            if i % 2 == 0:
+                print("{:d} is divisible by 2".format(i))
+                result_list.append(True)
+            else:
+                print("{:d} is not divisible by 2".format(i))
+                result_list.append(False)
+    else:
+        return result_list
