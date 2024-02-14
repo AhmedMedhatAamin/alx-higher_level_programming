@@ -1,0 +1,2 @@
+-- creat databasea
+create database hbtn_0c_0;
