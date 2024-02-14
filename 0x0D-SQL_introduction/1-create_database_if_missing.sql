@@ -1,10 +1,2 @@
--- creat databasea
-
-
--- cheak if the database exist
-
-use hbtn_0c_0;
-
---IF NOT EXIST THE DATA BASE WILL BE CREATED
-
-create database if not EXISTS hbtn_0c_0;
+-- Create database if not exits
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
